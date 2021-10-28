@@ -1,4 +1,51 @@
+@font-face {
+  font-family: BabyDoll;
+  src: url("BabyDoll.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: Caviar;
+  src: url(CaviarDreams.ttf) format("truetype");
+}
+
+body {
+  background-image: url("body bg.jpeg")
+}
+
+.container {
+  border-style: dotted;
+  border-width: 2px;
+  border-radius: 7px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.row {
+  display: inline;
+}
+/* results */
+
 #results {
     display:none;
+    text-align: center;
   }
-  
+
+#results h5 {
+  text-align: center;
+  font-family: BabyDoll; 
+  font-size: 45px;
+}
+
+/* title of page */
+h1 {
+  font-family: BabyDoll;
+  font-size: 70px;
+}
+
+/* tip box */
+.container {
+  font-family: Caviar;
+}
+
